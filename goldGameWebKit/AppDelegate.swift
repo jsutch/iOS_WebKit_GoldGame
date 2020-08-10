@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  goldGameWebKit
 //
-//  Created by Etoain Shrdlu on 8/10/20.
+//  Created by Jeff Sutch on 8/10/20.
 //  Copyright © 2020 Collett Park Networks. All rights reserved.
 //
 
