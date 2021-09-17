@@ -22,6 +22,7 @@
 		38F073F724E1DA8200A6611D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F073FA24E1DA8200A6611D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38F073FC24E1DA8200A6611D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FE952B24E4679200A4EAED /* goldGameWebKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = goldGameWebKit.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				38F073EF24E1DA8100A6611D /* goldGameWebKit */,
 				38F073EE24E1DA8100A6611D /* Products */,
+				38FE952C24E481E900A4EAED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +56,7 @@
 		38F073EF24E1DA8100A6611D /* goldGameWebKit */ = {
 			isa = PBXGroup;
 			children = (
+				38FE952B24E4679200A4EAED /* goldGameWebKit.entitlements */,
 				38F073F024E1DA8100A6611D /* AppDelegate.swift */,
 				38F073F224E1DA8100A6611D /* ViewController.swift */,
 				38F073F424E1DA8100A6611D /* Main.storyboard */,
@@ -62,6 +65,13 @@
 				38F073FC24E1DA8200A6611D /* Info.plist */,
 			);
 			path = goldGameWebKit;
+			sourceTree = "<group>";
+		};
+		38FE952C24E481E900A4EAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +106,23 @@
 				TargetAttributes = {
 					38F073EC24E1DA8100A6611D = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -283,13 +310,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5A5WF7Z7D7;
+				DEVELOPMENT_TEAM = 3MAB654CRL;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = goldGameWebKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CPN.goldGameWebKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collettpark.spunchgold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,13 +329,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5A5WF7Z7D7;
+				DEVELOPMENT_TEAM = 3MAB654CRL;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = goldGameWebKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CPN.goldGameWebKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.collettpark.spunchgold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
